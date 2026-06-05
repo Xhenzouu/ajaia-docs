@@ -7,7 +7,7 @@ import axios from 'axios';
 import type { Document } from '../App';
 import { Save, ArrowLeft, Bold, Italic, Underline as UnderlineIcon, List, ListOrdered, Heading2 } from 'lucide-react';
 
-const API_URL = 'http://localhost:3001/api';
+const API_URL = 'https://ajaia-docs-backend.onrender.com/api';
 
 interface EditorProps {
   userId: string;

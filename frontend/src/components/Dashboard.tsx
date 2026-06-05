@@ -3,7 +3,7 @@ import axios from 'axios';
 import type { Document, User } from '../App';
 import { FileText, Plus, Share2, Trash2, Upload } from 'lucide-react';
 
-const API_URL = 'http://localhost:3001/api';
+const API_URL = 'https://ajaia-docs-backend.onrender.com/api';
 
 interface DashboardProps {
   userId: string;
